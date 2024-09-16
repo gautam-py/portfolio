@@ -1,0 +1,22 @@
+/* Custom CSS */
+
+.hero-section {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+.section {
+    height: 600px;
+    margin: 50px 0;
+}
